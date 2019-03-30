@@ -35,6 +35,6 @@ OUT = TreeFilterRGB_Uint8(uint8_rgbimg,sigma,sig_s[,sig_r=0.05[,num_iter=1]])
 ```
 ### [Diffusion Maps for Edge-Aware Image Editing](http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
 ```
-### Image Smoothing via Unsupervised Learning, Siggraph Asia 2018. (https://github.com/fqnchina/ImageSmoothing)
-```
 
+```
+### [Image Smoothing via Unsupervised Learning, Siggraph Asia 2018]. (https://github.com/fqnchina/ImageSmoothing)
