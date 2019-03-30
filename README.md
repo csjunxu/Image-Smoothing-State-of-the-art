@@ -1,5 +1,14 @@
 # A Collection of Image Smoothing Algorithms
 
+2018
+
+### Image Smoothing via Unsupervised Learning, Siggraph Asia, 2018. 
+
+Code: https://github.com/fqnchina/ImageSmoothing
+
+
+
+
 ### [Image Smoothing via L0 Gradient Minimization](http://www.cse.cuhk.edu.hk/leojia/projects/L0smoothing/index.html)
 ```
 S = L0Smoothing(Im, lambda, kappa)
@@ -35,6 +44,3 @@ OUT = TreeFilterRGB_Uint8(uint8_rgbimg,sigma,sig_s[,sig_r=0.05[,num_iter=1]])
 ```
 ### [Diffusion Maps for Edge-Aware Image Editing](http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
 ```
-
-```
-### [Image Smoothing via Unsupervised Learning, Siggraph Asia 2018]. (https://github.com/fqnchina/ImageSmoothing)
