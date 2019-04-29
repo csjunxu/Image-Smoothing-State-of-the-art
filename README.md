@@ -20,6 +20,8 @@
 
 9. "TF-TIP2014": Tree Filtering: Efficient Structure-Preserving Smoothing With a Minimum Spanning Tree. Linchao Bao, Yibing Song, Qingxiong Yang, Hao Yuan, and Gang Wang. TIP 2014. (http://linchaobao.github.io/)
 
-10. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+10. "DEAF-ICML2015": Deep Edge-Aware Filters. Li Xu, Jimmy SJ. Ren, Qiong Yan, Renjie Liao, Jiaya Jia. ICML 2015. (https://github.com/csjunxu/vcnn_double-bladed)
 
-11. "FastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
+11. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+
+12. "FastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
