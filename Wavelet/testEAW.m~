@@ -1,0 +1,48 @@
+clear,close;
+
+Original_image_dir = '/Users/xujun/Desktop/YingkunHou/dataset/origin_images';
+fpath   = fullfile(Original_image_dir, '*.png');
+im_dir  = dir(fpath);
+im_num     = length(im_dir);
+
+method = 'EAW';
+for i = 1:im_num
+    I = double(imread(fullfile(Original_image_dir, im_dir(i).name)));
+    I = I./max(I(:));
+    S = regexp(im_dir(i).name, '\.', 'split');
+    [h,w,ch] = size(I);
+    sI = zeros(h,w,ch);
+    for c=1:ch
+        [A, W] = EAW(I, nlevels, wavelet_type, dist_func, sigma);
+        sI(:,:,c) = wlsFilter(I(:,:,c));
+    end
+    fprintf('%s is done!\n', im_dir(i).name);
+    outname = sprintf(['/Users/xujun/Desktop/YingkunHou/results/500images/' S{1} '_' method '.png']);
+    imwrite(sI, outname);
+end
+
+%%%%%%% Detail Enhacement
+
+
+wave_type = 1 ;
+clf
+colormap(gray(256)) ;
+
+I = imread('pflower.jpg');
+I = double(I) / 255 ;
+[w, h, c] = size(I) ;
+nlevels = floor(log2(min(size(I(:,:,1)))))-1 ;
+
+
+subplot(2,3,1), imagesc(I), title('Input'), axis off ;  drawnow
+I = rgb2hsv(I) ;
+nlevels = floor(log2(min(size(I(:,:,1)))))-2 ;
+R = I ;
+[A, W] = EAW(R(:,:,3),nlevels,wave_type,1,1) ;
+for i=1:nlevels
+    A{i,1} = A{i,1} * 0.7^(nlevels+1-i) ;  
+end
+R(:,:,3) = iEAW(A,W,wave_type) ;
+R = hsv2rgb(R) ;
+R(R<0) = 0 ;
+R(R>1) = 1 ;

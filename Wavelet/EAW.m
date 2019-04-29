@@ -18,7 +18,7 @@
 %
 % Code written by Raanan Fattal 
 
-function [A W] = EAW(I, nlevels, wavelet_type, dist_func, sigma)
+function [A, W] = EAW(I, nlevels, wavelet_type, dist_func, sigma)
 
 nc = size(I,3) ;
 
