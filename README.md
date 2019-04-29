@@ -3,21 +3,21 @@
 
 
 
-
+```
 1. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
-2. "RTV-TOG2012": Structure Extraction from Texture via Relative Total Variation. Li Xu, Qiong Yan, Yang Xia, Jiaya Jia. ACM TOG 2012. (http://www.cse.cuhk.edu.hk/~leojia/projects/texturesep/)
-
-### Image Smoothing via Unsupervised Learning, Siggraph Asia, 2018. 
-
-Code: https://github.com/fqnchina/ImageSmoothing
-
-
-
-
-### [Image Smoothing via L0 Gradient Minimization](http://www.cse.cuhk.edu.hk/leojia/projects/L0smoothing/index.html)
 ```
-S = L0Smoothing(Im, lambda, kappa)
 ```
+2. "L0-TOG2011": Image Smoothing via L0 Gradient Minimization. Li Xu, Cewu Lu, Yi Xu, Jiaya Jia. ACM TOG (SIGGRAPH Asia), 2011. (http://www.cse.cuhk.edu.hk/leojia/projects/L0smoothing/index.html)
+```
+```
+3. "RTV-TOG2012": Structure Extraction from Texture via Relative Total Variation. Li Xu, Qiong Yan, Yang Xia, Jiaya Jia. ACM TOG 2012. (http://www.cse.cuhk.edu.hk/~leojia/projects/texturesep/)
+```
+4.
+```
+```
+N. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+```
+
 ### [Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)
 ```
 R = lapfilter(I,sigma_r,alpha,beta,colorRemapping,domain)
