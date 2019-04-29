@@ -7,7 +7,7 @@
 
 clear 
 
-rgb = im2double(imread('poppy.jpg'));
+rgb = im2double(imread('../L0-TOG2011/pflower.jpg'));
 rgb = imresize(rgb, 0.3);
 % Optional: Remove "gamma".
 rgb = ag(rgb, 2.2); 
