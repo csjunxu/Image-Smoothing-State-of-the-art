@@ -14,7 +14,7 @@ for i = 1:im_num
     S = regexp(im_dir(i).name, '\.', 'split');
     sI = tsmooth(I,0.015,3);
     fprintf('%s is done!\n', im_dir(i).name);
-    outname = sprintf(['/Users/xujun/Desktop/YingkunHou/results/500images' S{1} '_' method '.png']);
+    outname = sprintf(['/Users/xujun/Desktop/YingkunHou/results/500images/' S{1} '_' method '.png']);
     imwrite(sI, outname);
 end
 
