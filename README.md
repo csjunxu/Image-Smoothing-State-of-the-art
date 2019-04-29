@@ -1,5 +1,7 @@
 # SOTA Image Smoothing Methods
 
+-1. "WLS-TOG2008": Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation. Zeev Farbman, Raanan Fattal, Dani Lischinski, Richard Szeliski. ACM TOG 2008. (http://www.cs.huji.ac.il/~danix/epd/)
+
 0. Diffusion Maps for Edge-Aware Image Editing. Zeev Farbman, Raanan Fattal, and Dani Lischinski. SIGGRAPH Asia, 2010. (http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
 
 1. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
@@ -19,8 +21,6 @@ N+1. "FastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K.
 ```
 R = lapfilter(I,sigma_r,alpha,beta,colorRemapping,domain)
 ```
-### [Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation](http://www.cs.huji.ac.il/~danix/epd/)
-
 ### [A Fast Approximation of the Bilateral Filter using a Signal Processing Approach](http://people.csail.mit.edu/sparis/bf/)
 ```
 B = bfilter2(A,w,sigma)
