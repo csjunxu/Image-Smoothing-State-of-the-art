@@ -48,14 +48,14 @@
 function output = bilateralFilter( data, edge, sigmaSpatial, sigmaRange, ...
     samplingSpatial, samplingRange )
 
-if ~exist( 'edge', 'var' ),
+if ~exist( 'edge', 'var' )
     edge = data;
 end
 
 inputHeight = size( data, 1 );
 inputWidth = size( data, 2 );
 
-if ~exist( 'sigmaSpatial', 'var' ),
+if ~exist( 'sigmaSpatial', 'var' )
     sigmaSpatial = min( inputWidth, inputHeight ) / 16;
 end
 
@@ -63,19 +63,19 @@ edgeMin = min( edge( : ) );
 edgeMax = max( edge( : ) );
 edgeDelta = edgeMax - edgeMin;
 
-if ~exist( 'sigmaRange', 'var' ),
+if ~exist( 'sigmaRange', 'var' )
     sigmaRange = 0.1 * edgeDelta;
 end
 
-if ~exist( 'samplingSpatial', 'var' ),
+if ~exist( 'samplingSpatial', 'var' )
     samplingSpatial = sigmaSpatial;
 end
 
-if ~exist( 'samplingRange', 'var' ),
+if ~exist( 'samplingRange', 'var' )
     samplingRange = sigmaRange;
 end
 
-if size( data ) ~= size( edge ),
+if size( data ) ~= size( edge )
     error( 'data and edge must be of the same size' );
 end
 
@@ -117,10 +117,10 @@ dz = round( ( edge - edgeMin ) / samplingRange ) + paddingZ + 1;
 % perform scatter (there's probably a faster way than this)
 % normally would do downsampledWeights( di, dj, dk ) = 1, but we have to
 % perform a summation to do box downsampling
-for k = 1 : numel( dz ),
+for k = 1 : numel( dz )
        
     dataZ = data( k ); % traverses the image column wise, same as di( k )
-    if ~isnan( dataZ  ),
+    if ~isnan( dataZ  )
         
         dik = di( k );
         djk = dj( k );
