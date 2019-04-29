@@ -16,10 +16,10 @@ for i = 1:im_num
     %r = 4; % try r=2, 4, or 8
     %eps = 0.1^2; % try eps=0.1^2, 0.2^2, 0.4^2
     %q = guidedfilter_color(I, p, r, eps);
-    q = imguidedfilter(I);
+    sI = imguidedfilter(I);
     fprintf('%s is done!\n', im_dir(i).name);
     outname = sprintf(['/Users/xujun/Desktop/YingkunHou/results/500images' S{1} '_' method '.png']);
-    imwrite(q, outname);
+    imwrite(sI, outname);
 end
 
 
