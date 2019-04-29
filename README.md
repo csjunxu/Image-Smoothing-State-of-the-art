@@ -25,17 +25,6 @@ R = lapfilter(I,sigma_r,alpha,beta,colorRemapping,domain)
 ```
 B = bfilter2(A,w,sigma)
 ```
-
-### [Nonlinear total variation based noise removal algorithms](http://en.wikipedia.org/wiki/Total_variation_denoising)
-```
-out = SplitBregmanROF(image,mu,tol)
-```
-
-### [Fast Global Image Smoothing Based on Weighted Least Squares](https://sites.google.com/site/globalsmoothing/)
-```
-F = FGS(img, sigma, lambda, joint_image, num_iterations, attenuation)
-```
-
 ### [Tree Filtering: Efficient Structure-Preserving Smoothing With a Minimum Spanning Tree](https://sites.google.com/site/linchaobao/home)
 ```
 OUT = TreeFilterRGB_Uint8(uint8_rgbimg,sigma,sig_s[,sig_r=0.05[,num_iter=1]])
