@@ -1,8 +1,10 @@
 # SOTA Image Smoothing Methods
 
--1. "WLS-TOG2008": Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation. Zeev Farbman, Raanan Fattal, Dani Lischinski, Richard Szeliski. ACM TOG 2008. (http://www.cs.huji.ac.il/~danix/epd/)
+0. "WLS-TOG2008": Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation. Zeev Farbman, Raanan Fattal, Dani Lischinski, Richard Szeliski. ACM TOG 2008. (http://www.cs.huji.ac.il/~danix/epd/)
 
-0. Diffusion Maps for Edge-Aware Image Editing. Zeev Farbman, Raanan Fattal, and Dani Lischinski. SIGGRAPH Asia, 2010. (http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
+00. "EAW-TOG2009": Edge-Avoiding Wavelets and their Applications. Raanan Fattal. ACM TOG (SIGGRAPH) 2009. (http://www.cs.huji.ac.il/~raananf/projects/eaw/)
+
+000. Diffusion Maps for Edge-Aware Image Editing. Zeev Farbman, Raanan Fattal, and Dani Lischinski. SIGGRAPH Asia, 2010. (http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
 
 1. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
 
@@ -28,8 +30,4 @@ B = bfilter2(A,w,sigma)
 ### [Tree Filtering: Efficient Structure-Preserving Smoothing With a Minimum Spanning Tree](https://sites.google.com/site/linchaobao/home)
 ```
 OUT = TreeFilterRGB_Uint8(uint8_rgbimg,sigma,sig_s[,sig_r=0.05[,num_iter=1]])
-```
-### [Edge-Avoiding Wavelets and their Applications](http://www.cs.huji.ac.il/~raananf/projects/eaw/)
-```
-[A W] = EAW(I, nlevels, wavelet_type, dist_func, sigma)
 ```
