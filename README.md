@@ -1,5 +1,6 @@
 # SOTA Image Smoothing Methods
 
+0. Diffusion Maps for Edge-Aware Image Editing. Zeev Farbman, Raanan Fattal, and Dani Lischinski. SIGGRAPH Asia, 2010. (http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
 
 1. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
 
@@ -42,6 +43,4 @@ OUT = TreeFilterRGB_Uint8(uint8_rgbimg,sigma,sig_s[,sig_r=0.05[,num_iter=1]])
 ### [Edge-Avoiding Wavelets and their Applications](http://www.cs.huji.ac.il/~raananf/projects/eaw/)
 ```
 [A W] = EAW(I, nlevels, wavelet_type, dist_func, sigma)
-```
-### [Diffusion Maps for Edge-Aware Image Editing](http://www.cs.huji.ac.il/labs/cglab/projects/diffmaps/)
 ```
