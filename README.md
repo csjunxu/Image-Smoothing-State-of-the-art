@@ -1,4 +1,4 @@
-# A Collection of Image Smoothing Algorithms
+# SOTA Image Smoothing Methods
 
 
 1. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
