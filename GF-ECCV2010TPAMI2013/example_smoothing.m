@@ -3,7 +3,7 @@
 
 clear,close;
 
-Original_image_dir = '../../dataset/origin_images';
+Original_image_dir = '/Users/xujun/Desktop/YingkunHou/dataset/origin_images';
 fpath   = fullfile(Original_image_dir, '*.png');
 im_dir  = dir(fpath);
 im_num     = length(im_dir);
@@ -18,7 +18,7 @@ for i = 1:im_num
     %q = guidedfilter_color(I, p, r, eps);
     q = imguidedfilter(I);
     fprintf('%s is done!\n', im_dir(i).name);
-    outname = sprintf(['../../results/' S{1} '_' method '.png']);
+    outname = sprintf(['/Users/xujun/Desktop/YingkunHou/results/500images' S{1} '_' method '.png']);
     imwrite(q, outname);
 end
 
