@@ -14,9 +14,9 @@
 
 4. "FGS-TIP2014": Fast Global Image Smoothing Based on Weighted Least Squares. Dongbo Min, Sunghwan Choi, Jiangbo Lu, Bumsub Ham, Kwanghoon Sohn, and Minh N. Do. TIP 2014. (https://sites.google.com/site/globalsmoothing/)
 
-N. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+5. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
 
-N+1. "FastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
+6. "FastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
 
 
 ### [Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)
