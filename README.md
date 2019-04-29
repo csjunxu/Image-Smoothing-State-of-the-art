@@ -1,5 +1,12 @@
 # A Collection of Image Smoothing Algorithms
 
+
+
+
+
+1. Guided Filter is added in the "GF-ECCV2010TPAMI2013" folder. 
+Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang, in ECCV2010, TPAMI2013.
+
 2018
 
 ### Image Smoothing via Unsupervised Learning, Siggraph Asia, 2018. 
