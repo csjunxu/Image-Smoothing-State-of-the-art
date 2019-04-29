@@ -1,6 +1,6 @@
 %% example: detail manipulation
 
-fn_in = 'input_png/flower.png';
+fn_in = 'pflower.jpg';
 I = double( imread(fn_in) )/255;
 I = min(1,max(0, imresize(I,1/4) ));  % downscale, Matlab version is slow
 
