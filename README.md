@@ -4,10 +4,8 @@
 
 
 
-1. Guided Filter is added in the "GF-ECCV2010TPAMI2013" folder. 
-Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang, in ECCV2010, TPAMI2013.
-
-2018
+1. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
+2. "RTV-TOG2012": Structure Extraction from Texture via Relative Total Variation. Li Xu, Qiong Yan, Yang Xia, Jiaya Jia. ACM TOG 2012. (http://www.cse.cuhk.edu.hk/~leojia/projects/texturesep/)
 
 ### Image Smoothing via Unsupervised Learning, Siggraph Asia, 2018. 
 
