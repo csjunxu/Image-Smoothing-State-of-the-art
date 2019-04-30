@@ -20,10 +20,18 @@
 
 9. "TF-TIP2014": Tree Filtering: Efficient Structure-Preserving Smoothing With a Minimum Spanning Tree. Linchao Bao, Yibing Song, Qingxiong Yang, Hao Yuan, and Gang Wang. TIP 2014. (http://linchaobao.github.io/)
 
+10. "RGF-ECCV2014": Rolling Guidance Filter. Qi Zhang, Li Xu, Jiaya Jia. ECCV 2014. (http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/)
+
 10. "DEAF-ICML2015": Deep Edge-Aware Filters. Li Xu, Jimmy SJ. Ren, Qiong Yan, Renjie Liao, Jiaya Jia. ICML 2015. (https://github.com/csjunxu/vcnn_double-bladed)
 
-11. "SGF-ICCV2015": Segment Graph Based Image Filtering: Fast Structure-Preserving Smoothing. Feihu Zhang, Longquan Dai, Shiming Xiang, and Xiaopeng Zhang. ICCV 2015. (http://www.feihuzhang.com/SGF.html)
+11. "SGF-ICCV2015": Segment Graph Based Image Filtering: Fast Structure-Preserving Smoothing. Feihu Zhang, Longquan Dai, Shiming Xiang, and Xiaopeng Zhang. ICCV 2015. (http://www.feihuzhang.com/SGF.html, Note that SGF.exe may not work well on linux or windows!)
 
-12. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+12. "LRNN-ECCV2016": Learning Recursive Filters for Low-Level Vision via a Hybrid Neural Network. Sifei Liu, Jinshan Pan and Ming-Hsuan Yang. ECCV 2016. (https://github.com/silverneko/Linear-RNN)
 
-13. "fastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
+13. "FIP-ICCV2017": Fast image processing with fullyconvolutional networks. Qifeng Chen, Jia Xu, and Vladlen Koltun. ICCV 2017. (https://github.com/CQFIO/FastImageProcessing)
+
+14. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+
+15. "fastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
+
+TBC.
