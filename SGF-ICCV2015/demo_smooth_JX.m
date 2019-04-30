@@ -19,10 +19,9 @@ for i = 1:im_num
     thresh=0.1;
     iter=3;
     %%%%%%for windows
-    command=sprintf('SGF.exe %s %s %s %d %.2f %.2f %d',imgname, imgname, outname, radius,eps,thresh,iter);
+    command=sprintf('SGF.exe %s %s %s %d %.2f %.2f %d',file,file,outname,radius,eps,thresh,iter);
     %%%%%%for linux
     %command=sprintf('./SGF %s %s %s %d %.2f %.2f %d',imgname, imgname,outfile, radius,eps,thresh,iter);
     dos(command);
     fprintf('%s is done!\n', im_dir(i).name);
-    imwrite(sI, outname);
 end
