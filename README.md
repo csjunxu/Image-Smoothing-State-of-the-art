@@ -22,6 +22,8 @@
 
 10. "DEAF-ICML2015": Deep Edge-Aware Filters. Li Xu, Jimmy SJ. Ren, Qiong Yan, Renjie Liao, Jiaya Jia. ICML 2015. (https://github.com/csjunxu/vcnn_double-bladed)
 
-11. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+11. "SGF-ICCV2015": Segment Graph Based Image Filtering: Fast Structure-Preserving Smoothing. Feihu Zhang, Longquan Dai, Shiming Xiang, and Xiaopeng Zhang. ICCV 2015. (http://www.feihuzhang.com/SGF.html)
 
-12. "fastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
+12. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
+
+13. "fastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
