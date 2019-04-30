@@ -20,6 +20,8 @@
 
 9. "TF-TIP2014": Tree Filtering: Efficient Structure-Preserving Smoothing With a Minimum Spanning Tree. Linchao Bao, Yibing Song, Qingxiong Yang, Hao Yuan, and Gang Wang. TIP 2014. (http://linchaobao.github.io/)
 
+10. "RGF-ECCV2014": Rolling Guidance Filter. Qi Zhang, Li Xu, Jiaya Jia. ECCV 2014. (http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/)
+
 10. "DEAF-ICML2015": Deep Edge-Aware Filters. Li Xu, Jimmy SJ. Ren, Qiong Yan, Renjie Liao, Jiaya Jia. ICML 2015. (https://github.com/csjunxu/vcnn_double-bladed)
 
 11. "SGF-ICCV2015": Segment Graph Based Image Filtering: Fast Structure-Preserving Smoothing. Feihu Zhang, Longquan Dai, Shiming Xiang, and Xiaopeng Zhang. ICCV 2015. (http://www.feihuzhang.com/SGF.html, Note that SGF.exe may not work well on linux or windows!)
