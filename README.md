@@ -10,6 +10,8 @@
 
 4. "GF-ECCV2010TPAMI2013": Guided Image Filtering, by Kaiming He, Jian Sun, and Xiaoou Tang. ECCV 2010, TPAMI 2013. (http://kaiminghe.com/eccv10/)
 
+5. "DTF-TOG2011": Domain Transform for Edge-Aware Image and Video Processing. Eduardo S. L. Gastal and Manuel M. Oliveira. ACM TOG (SIGGRAPH), 2011. (http://inf.ufrgs.br/~eslgastal/DomainTransform/, Real-time!)
+
 5. "LLF-TOG2011": Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid. Sylvain Paris, Samuel W. Hasinoff, Jan Kautz. ACM TOG (SIGGRAPH), 2011. (http://people.csail.mit.edu/sparis/publi/2011/siggraph/)
 
 6. "L0-TOG2011": Image Smoothing via L0 Gradient Minimization. Li Xu, Cewu Lu, Yi Xu, Jiaya Jia. ACM TOG (SIGGRAPH Asia), 2011. (http://www.cse.cuhk.edu.hk/leojia/projects/L0smoothing/index.html)
