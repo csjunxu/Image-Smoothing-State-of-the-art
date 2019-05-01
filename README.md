@@ -34,6 +34,8 @@
 
 14. "UL-TOG2018": Image Smoothing via Unsupervised Learning, ACM TOG (SIGGRAPH Asia), 2018. (https://github.com/fqnchina/ImageSmoothing)
 
-15. "fastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
+15. Deep Texture and Structure Aware Filtering Network for Image Smoothing. Kaiyue Lu, Shaodi You, Nick Barnes. ECCV 2018. (Code and data will be released.)
+
+16. "fastABF-TIP2019": Fast Adaptive Bilateral Filtering. R. G. Gavaskar and K. N. Chaudhury. TIP, 2019. (https://github.com/rgavaska/Fast-Adaptive-Bilateral-Filtering)
 
 TBC.
