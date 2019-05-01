@@ -1,6 +1,6 @@
 # SOTA Image Smoothing Methods
 
-0. "FBF-ECCV2006": A Fast Approximation of the Bilateral Filter using a Signal Processing Approach. Sylvain Paris and Frédo Durand. ECCV 2006. (http://people.csail.mit.edu/sparis/bf/)
+1. "FBF-ECCV2006": A Fast Approximation of the Bilateral Filter using a Signal Processing Approach. Sylvain Paris and Frédo Durand. ECCV 2006. (http://people.csail.mit.edu/sparis/bf/)
 
 1. "WLS-TOG2008": Edge-Preserving Decompositions for Multi-Scale Tone and Detail Manipulation. Zeev Farbman, Raanan Fattal, Dani Lischinski, Richard Szeliski. ACM TOG 2008. (http://www.cs.huji.ac.il/~danix/epd/)
 
